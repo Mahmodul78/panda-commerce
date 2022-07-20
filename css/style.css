@@ -1,0 +1,60 @@
+.container{
+    margin-bottom: 100px;
+}
+.navbar{
+    border-radius: 10px;
+}
+.bg-color{
+    background-color: #feeae9;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.btnYbox{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.categorie-1{
+    background-color: orange;
+}
+.categorie-2{
+    background-color: #FF136F;
+}
+.categorie-3{
+    background-color: blue;
+}
+.categorie-1, .categorie-2, .categorie-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.Categories h1{
+    color: #fff;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.subscribe{
+    height: 300px;
+}
+.subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+    color: grey;
+    font-size: 17px;
+}
+footer span{
+    color: #FF136F;
+    border-bottom: 3px dotted #FF589B;
+    font-weight: 700;
+}

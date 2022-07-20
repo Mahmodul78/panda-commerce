@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda_Commerce</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!----------- Navbar Start ----------->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#backpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!----------- Homepage or Carousel Section Start ----------->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide bg-color" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Samsung T4700 32" Smart HD TV</h1>
+                            <p>The Samsung T4700 32" Smart HD TV comes with Voice Assistant with One Remote Control. The
+                                sleek One Remote Control keeps it simple and allowing you to quickly search all your
+                                favorite content from your set-top box to game consoles, apps, and even live TV.</p>
+                            <h1 class="price">29,000৳</h1>
+                            <button class="btn btnYbox">BUY NOW</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>ZEBRONICS Zeb-Thunder Wireless</h1>
+                            <p>Playback is supported through Bluetooth , 3.5mm aux input and MicroSD card. You can also
+                                tune in to your favourite FM channel with built-in FM tuner. 40mm drivers ensures wider
+                                frequency response and excellent sound reproduction.</p>
+                            <h1 class="price">9,000৳</h1>
+                            <button class="btn btnYbox">BUY NOW</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/headphone1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Xbox One S White 1TB</h1>
+                            <p>Xbox One S 1TB Console Includes: * Xbox One S 1TB Console, wireless controller, HDMI
+                                cable (4K Capable), AC Power cable, 1-Month Xbox Game Pass Ultimate trial, and 14-Day
+                                Xbox Live Gold Trial. (Trials not included with Pre-owned or Refurbished).</p>
+                            <h1 class="price">31,000৳</h1>
+                            <button class="btn btnYbox">BUY NOW</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!----------- Categories Section Start ----------->
+    <div class="container Categories">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="categorie-1 d-flex justify-content-between align-items-center">
+                    <h1>Watch</h1>
+                    <img src="images/categories/watch.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="categorie-2 d-flex justify-content-between align-items-center">
+                    <h1>Bag</h1>
+                    <img src="images/categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="categorie-3 d-flex justify-content-between align-items-center">
+                    <h1>Shoe</h1>
+                    <img src="images/categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------- Shoes Section Start ----------->
+    <div class="container shoes" id="shoes">
+        <h3>Shoes</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Supply 350</h5>
+                        <p class="card-text">This is a longer card with supporting text below as natural lead-in to
+                            additional content.</p>
+                        <h5>1,899৳</h5>
+                        <button class="btn btnYbox">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike 320</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <h5>2,500৳</h5>
+                        <button class="btn btnYbox">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Max</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural.</p>
+                        <h5>3,500৳</h5>
+                        <button class="btn btnYbox">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------- Backpack Section Start ----------->
+    <div class="container backpack" id="backpack">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Backpack</h5>
+                        <h5>3,899৳</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btnYbox">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Backpack</h5>
+                        <h5>2,099৳</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btnYbox">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Backpack</h5>
+                        <h5>1,299৳</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btnYbox">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------- Subscribe Section Start ----------->
+    <div class="container d-flex align-items-center justify-content-center subscribe bg-color" id="subscribe">
+        <div>
+            <h3>LET'S STAY IN TOUCH</h3>
+            <h6>Get updates on sales, specials and more</h6>
+            <input class="form-control mb-2" type="text">
+            <button class="btn btnYbox">SUBMIT</button>
+        </div>
+    </div>
+
+    <!----------- Footer Section Start ----------->
+    <footer class="p-2">
+        <small>&copy;2022 | <span>Mahmodul's </span>Panda Commerce</small>
+    </footer>
+
+
+
+
+    <!----------- JavaScript Start ----------->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
